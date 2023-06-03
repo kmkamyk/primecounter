@@ -22,7 +22,7 @@ The application is designed to measure the performance of individual threads on 
    ```
 2. Run the program by providing the number of threads, start range, and end range as command-line arguments, for example:
    ```
-   ./primecouter 4 1 1000
+   ./primecouter 4 1000
    ```
    The above command runs the program with 4 threads, calculating the count of prime numbers within the range from 1 to 1000.
 
