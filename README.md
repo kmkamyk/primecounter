@@ -1,4 +1,5 @@
-# Primecounter (Single-Thread Performance Measurement Application)
+### Single-Thread Performance Measurement Application
+# Primecounter CPU benchmark 
 
 ## Description
 
