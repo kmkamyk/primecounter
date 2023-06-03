@@ -49,7 +49,7 @@ void *countPrimes(void *args) {
 
 int main(int argc, char *argv[]) {
     if (argc < 3) {
-        printf("Podaj liczbę wątków i liczbę danych do obliczeń jako parametry!\n");
+        printf("Provide the number of threads and the number of data for calculations as parameters!\n");
         return 1;
     }
 
@@ -85,16 +85,16 @@ int main(int argc, char *argv[]) {
             maxThreadTime = threadArgs[i].threadTime;
         }
 
-        printf("Ilość liczb pierwszych w zakresie <%d, %d> (wątek %d): %d\n", threadArgs[i].start, threadArgs[i].end, i + 1, threadArgs[i].primeCount);
-        printf("Czas wykonania (wątek %d): %f sekund\n\n", i + 1, threadArgs[i].threadTime);
+        printf("Number of primes in range <%d, %d> (thread %d): %d\n", threadArgs[i].start, threadArgs[i].end, i + 1, threadArgs[i].primeCount);
+        printf("Execution time (thread %d): %f seconds\n\n", i + 1, threadArgs[i].threadTime);
     }
 
     clock_gettime(CLOCK_MONOTONIC, &end_total);
     double total_time_spent = (end_total.tv_sec - begin_total.tv_sec) + (end_total.tv_nsec - begin_total.tv_nsec) / 1e9;
 
-   //  printf("Całkowita ilość liczb pierwszych w zakresie <%d, %d>: %d\n", start, end, totalPrimeCount);
-   // printf("Całkowity czas wykonania: %f sekund\n", total_time_spent);
-   //  printf("Najdłuższy czas wykonania wątku: %f sekund\n", maxThreadTime);
+    printf("The total number of primes in the range <%d, %d>: %d\n", start, end, totalPrimeCount);
+    printf("Total execution time: %f seconds\n", total_time_spent);
+    printf("Longest thread execution time: %f seconds\n", maxThreadTime);
 
     return 0;
 }
