@@ -2,57 +2,81 @@
 #### thread = 1
 ```
 % ./primecounter 1 10000000
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 1): 664579
-Czas wykonania (wątek 1): 2.285234 sekund
+Number of primes in range <2, 10000001> (thread 1): 664579
+Execution time (thread 1): 2.291121 seconds
+
+-----------------------------
+The total number of primes in the range <2, 10000001>: 664579
+Total execution time: 2.291269 seconds
+Longest thread execution time: 2.291121 seconds
+-----------------------------
 ```
 #### thread = 2
 ```
 % ./primecounter 2 10000000
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 1): 664579
-Czas wykonania (wątek 1): 2.360803 sekund
+Number of primes in range <2, 10000001> (thread 1): 664579
+Execution time (thread 1): 2.362223 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 2): 664579
-Czas wykonania (wątek 2): 2.363253 sekund
+Number of primes in range <2, 10000001> (thread 2): 664579
+Execution time (thread 2): 2.363570 seconds
+
+-----------------------------
+The total number of primes in the range <2, 10000001>: 1329158
+Total execution time: 2.363723 seconds
+Longest thread execution time: 2.363570 seconds
+-----------------------------
 ```
 #### thread = 4
 ```
 % ./primecounter 4 10000000
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 1): 664579
-Czas wykonania (wątek 1): 2.452075 sekund
+Number of primes in range <2, 10000001> (thread 1): 664579
+Execution time (thread 1): 2.440722 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 2): 664579
-Czas wykonania (wątek 2): 2.448142 sekund
+Number of primes in range <2, 10000001> (thread 2): 664579
+Execution time (thread 2): 2.441689 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 3): 664579
-Czas wykonania (wątek 3): 2.443886 sekund
+Number of primes in range <2, 10000001> (thread 3): 664579
+Execution time (thread 3): 2.441567 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 4): 664579
-Czas wykonania (wątek 4): 2.443051 sekund
+Number of primes in range <2, 10000001> (thread 4): 664579
+Execution time (thread 4): 2.442942 seconds
+
+-----------------------------
+The total number of primes in the range <2, 10000001>: 2658316
+Total execution time: 2.443184 seconds
+Longest thread execution time: 2.442942 seconds
+-----------------------------
 ```
 #### thread = 8
 ```
 % ./primecounter 8 10000000
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 1): 664579
-Czas wykonania (wątek 1): 3.808888 sekund
+Number of primes in range <2, 10000001> (thread 1): 664579
+Execution time (thread 1): 3.776508 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 2): 664579
-Czas wykonania (wątek 2): 3.765027 sekund
+Number of primes in range <2, 10000001> (thread 2): 664579
+Execution time (thread 2): 3.755765 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 3): 664579
-Czas wykonania (wątek 3): 3.818744 sekund
+Number of primes in range <2, 10000001> (thread 3): 664579
+Execution time (thread 3): 3.749051 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 4): 664579
-Czas wykonania (wątek 4): 3.822556 sekund
+Number of primes in range <2, 10000001> (thread 4): 664579
+Execution time (thread 4): 3.766205 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 5): 664579
-Czas wykonania (wątek 5): 3.820159 sekund
+Number of primes in range <2, 10000001> (thread 5): 664579
+Execution time (thread 5): 3.758188 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 6): 664579
-Czas wykonania (wątek 6): 3.792423 sekund
+Number of primes in range <2, 10000001> (thread 6): 664579
+Execution time (thread 6): 3.760613 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 7): 664579
-Czas wykonania (wątek 7): 3.778418 sekund
+Number of primes in range <2, 10000001> (thread 7): 664579
+Execution time (thread 7): 3.777272 seconds
 
-Ilość liczb pierwszych w zakresie <2, 10000001> (wątek 8): 664579
-Czas wykonania (wątek 8): 3.820911 sekund
+Number of primes in range <2, 10000001> (thread 8): 664579
+Execution time (thread 8): 3.771810 seconds
+
+-----------------------------
+The total number of primes in the range <2, 10000001>: 5316632
+Total execution time: 3.777506 seconds
+Longest thread execution time: 3.777272 seconds
+-----------------------------
 ```
