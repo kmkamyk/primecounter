@@ -20,7 +20,7 @@ The application is designed to measure the performance of individual threads on 
    ```
    gcc -o primecouter primecouter.c -pthread
    ```
-2. Run the program by providing the number of threads, start range, and end range as command-line arguments, for example:
+2. Run the program by providing the number of threads and end range as command-line arguments, for example:
    ```
    ./primecouter 4 1000
    ```
